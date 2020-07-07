@@ -320,21 +320,20 @@
 				DQAAAA==
 				</data>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
-			<dict>
-				<key>device-id</key>
-				<data>cZ0AAA==</data>
-				<key>layout-id</key>
-				<data>DQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AgAmWQ==</data>
+				<data>
+				AgAmWQ==
+				</data>
 				<key>framebuffer-flags</key>
-				<data>CwvjAA==</data>
+				<data>
+				CwvjAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -627,9 +626,25 @@
 				<key>Comment</key>
 				<string>Battery sensor support for VirtualSMC</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>ACPIBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/ACPIBatteryManager</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1015,7 +1030,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>darkwake=4 alcid=11</string>
+				<string>darkwake=4 alcid=11 vsmcgen=1 gfxrst=1 -brcmfxbeta -lilubetaall -v -disablegfxfirmware</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
