@@ -1,5 +1,5 @@
-# 9360-macOS
-macOS Catalina (10.15) for the Dell XPS 9360 Iris (7560u)
+# 9360-macOS (now with Big Sur!)
+macOS Big Sur (11.0) for the Dell XPS 9360 Iris (7560u)
 
 Big thanks to @the-darkvoid and @hoanX
 
@@ -12,7 +12,7 @@ Big thanks to @the-darkvoid and @hoanX
 | Working                          | Not Working                   | Not Sure                    |
 |----------------------------------|-------------------------------|-----------------------------|
 | USB A, C, Sleep, Graphics        | Fingerpint                    | Thunderbolt 3 Functionality |
-| Audio*                           |                               |                             |
+| Audio*                           | Wireless                      |                             |
 | Touch                            |                               |                             |
 | USB-C to Displayport             |                               |                             |
 
@@ -28,7 +28,7 @@ The provided wifi card is not compatible with macOS, so I would recommend the DW
 - Disable Fingerprint + SD Card reader
 
 # Installation
-Copy the folders to your EFI, and things should work for the most part.
+Copy the folders to your EFI, and things should work for the most part. You may have to set ``ScanPolicy`` to 0 to boot to installer
 
 # Troubleshooting
 Some issues may occur due to hardware differences
