@@ -1,5 +1,6 @@
 # 9360-macOS
 macOS Catalina (10.15) for the Dell XPS 9360 Iris (7560u)
+Experimental Big Sur support in branch big-sur
 
 Big thanks to @the-darkvoid and @hoanX
 
